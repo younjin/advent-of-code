@@ -12,7 +12,7 @@
 - open file `f` of food items
 - create a list `l` where:
     - index `i` corresponds to the `i`th Elf
-    - `l[i]` corresponds to the total # of Calories the `i+1`th Elf is carrying
+    - `l[i]` corresponds to the total # of Calories the `i`th Elf is carrying
 - create a variable `m` set to `0`
 - iterate through the items in `f`
     - set the index counter `c` to `0` 
