@@ -1,26 +1,34 @@
 notes & formulas
 ================
 
-_to maximise the body text:_
+# acknowledgements
 
-- open the AoC site on a half window
-- uncheck `min-width: 60em` defined on `body` and `min-width: 45em` defined on `article`
-- delete the `div` named `sidebar`
+- @jeppes, the best co-conspirator and rubber duck
+- [The genius(es) behind the GitHub Docs on syntax formatting](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+---
+
+> [!TIP]
+> To maximise the body text:
+> - uncheck/delete:
+>     - `min-width: 60em` defined on `body`
+>     - `min-width: 45em` defined on `article`
+> - delete the `div` named `sidebar`
 
 ---
 
 ## day 1
 
-- given: two lists of location IDs (unsorted) --> `L-unsorted`, `R-unsorted`
-     - **assumption**: the lists are the same length
+- given: two (unsorted) lists of location IDs --> `L-unsorted`, `R-unsorted`
+     - **[assumption]** the lists are the same length --> `length`
+          - if the lists aren't the same length, would `distance` for the unpaired IDs be `0` (or maybe the IDs themselves)?
 
 ### part 1
 
 - sort the lists --> `L`, `R`
 - `total-distance = 0`
-- for `i = [1, length of the lists]`:
+- for `i = [1, length]`:
     - `distance = the absolute value of (L_i - R_i)`
-        - if the lists aren't the same length, would `distance` for the unpaired IDs be `0` (or the IDs themselves)?
     - `total-distance = total-distance + distance`
 - return `total-distance`
 
