@@ -1,9 +1,9 @@
 notes & formulas
 ================
 
-# acknowledgements
+### acknowledgements
 
-- @jeppes, the best co-conspirator and rubber duck
+- [**@jeppes**](https://github.com/jeppes), the best co-conspirator and rubber duck
 - [The genius(es) behind the GitHub Docs on syntax formatting](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 ---
