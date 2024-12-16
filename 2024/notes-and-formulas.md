@@ -12,8 +12,8 @@ notes & formulas
 > To maximise the body text:
 > - uncheck/delete:
 >     - `min-width: 60em` defined on `body`
->     - `min-width: 45em` defined on `article`
-> - delete the `div` named `sidebar`
+>     - `min-width: 45em` defined on `article` (in `body` > `main`)
+> - delete the `div` named `sidebar` (in `body`, after `header`)
 
 ---
 
